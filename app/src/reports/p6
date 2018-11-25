@@ -1,0 +1,41 @@
+AMazeActivity
+Responsibilities
+    Take input for skill level
+    take input for driver algo
+    take input for builder algo
+    pass info to GeneratingActivity
+Collaborators
+    GeneratingActivity
+    mazeController
+    BasicRobot
+
+GeneratingActivity
+Responsibilites
+    Notify user as to progress of maze generation
+Collaborators
+    AMazeActivity
+    MazeController
+
+PlayActivity
+Responsibilities
+    Allow user to see driver algorithm in action
+    have buttons to drive robot
+    show energy level
+    allow user to go back to title
+Collaborators
+    BasicRobot
+    ManualDriver
+    GeneratingActivity
+    FinishActivity
+
+FinishActivity
+Responsibilities
+    Display path length
+    Display battery usage
+    tell user whether or not they won
+    be able to return to title
+Collaborators
+    BasicRobot
+    ManualDriver
+    PlayActivity
+    AMazeActivity

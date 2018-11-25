@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AMazeByNdukweIkoMichaelCurcio</string>
+    <string-array name="builders">
+        <item>DFS</item>
+        <item>Prim</item>
+        <item>Eller</item>
+    </string-array>
+    <string-array name="drivers">
+        <item>Manual</item>
+        <item>Wizard</item>
+        <item>Wallfollower</item>
+        <item>Pledge</item>
+    </string-array>
+    <string name="congrats">Congratulations!</string>
+    <string name="battery">batteryLevel: </string>
+    <string name="path">pathLength: </string>
+    <string name="instructions">Click here to return to title screen</string>
+    <string name="finishButton">Title Screen</string>
+    <string name="Energy">Energy:</string>
+    <string name="up">Up</string>
+    <string name="back">Back</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="Back">ToTitle</string>
+    <string name="Pause">Pause</string>
+    <string name = "Start">Start</string>
+</resources>

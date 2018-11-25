@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_state_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.michael.amazebyndukweikomichaelcurcio.PlayActivity">
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="108dp"
+        android:id="@+id/toggleButton" />
+
+    <Button
+        android:text="Go to Finish Screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playbutton"
+        android:onClick="generate_finish"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/toggleButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/toggleButton2" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/toggleButton2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/toggleButton3" />
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/progressBar3"
+        android:layout_below="@+id/playbutton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_alignEnd="@+id/button2"
+        android:visibility="gone"
+        android:id="@+id/button5" />
+
+    <Button
+        android:text="@string/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:visibility="gone"
+        android:layout_toEndOf="@+id/toggleButton3" />
+
+    <Button
+        android:text="@string/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button2"
+        android:visibility="gone"
+        android:layout_toEndOf="@+id/button2" />
+
+    <Button
+        android:text="@string/up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/toggleButton3"
+        android:visibility="gone"
+        android:layout_toEndOf="@+id/button3" />
+
+    <Button
+        android:text="@string/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_above="@+id/toggleButton3"
+        android:layout_toEndOf="@+id/playbutton" />
+
+    <Button
+        android:text="@string/Pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:visibility="gone"
+        android:layout_below="@+id/progressBar3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/Energy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar3"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3" />
+
+</RelativeLayout>
